@@ -17,8 +17,7 @@ const isUpperCase = (char) => {
 };
 
 // Define the Key Globally
-
-let key = 'DnRsH2w91'
+let key = "NnLh4k3QGYYN"
 
 // Encrypt and Decrypt functions
 const encrypt = (text) => {
@@ -68,3 +67,7 @@ const decrypt = (text) => {
   }
   return result;
 };
+
+console.log(encrypt('FREE CODE CAMP')); // SEPL MATK ANZC
+console.log(decrypt('SEPL MATK ANZC')); // FREE CODE CAMP
+// console.log(decrypt('NnLh4k3QGYYN'));
